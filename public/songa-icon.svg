@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#1c1c1c"/>
+    </linearGradient>
+    <linearGradient id="arrgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FFB347"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Premium dark rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Subtle orange bottom edge glow -->
+  <rect x="8" y="59" width="48" height="3" rx="1.5" fill="#FF6B00" fill-opacity="0.45"/>
+
+  <!-- Fluid S — single calligraphic stroke -->
+  <path
+    d="M 43,17
+       C 43,13 39,11 34,11
+       L 27,11
+       C 20,11 16,15 16,20
+       C 16,25 20,28 27,30
+       L 37,34
+       C 44,36 48,39 48,44
+       C 48,49 44,53 37,53
+       L 30,53
+       C 23,53 19,51 19,47"
+    fill="none"
+    stroke="white"
+    stroke-width="6.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Forward arrow: clean orange chevron + shaft, top-right area -->
+  <line x1="33" y1="10" x2="49" y2="10" stroke="url(#arrgrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <polyline points="42,6 49,10 42,14" fill="none" stroke="url(#arrgrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
